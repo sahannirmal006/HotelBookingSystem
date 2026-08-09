@@ -1,0 +1,12 @@
+<?php if(!empty($hotel['image'])){ ?>
+
+<img src="../uploads/hotels/<?php echo $hotel['image']; ?>"
+     class="card-img-top"
+     style="height:220px; object-fit:cover;">
+
+<?php } else { ?>
+
+<img src="https://via.placeholder.com/400x220"
+     class="card-img-top">
+
+<?php } ?>
